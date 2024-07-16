@@ -28,7 +28,7 @@ function InputBox({
           <p className="pb-2">Currency Type</p>
 
           <select
-            className="bg-gray-200 w-24   p-1 rounded-lg outline-0 "
+            className="bg-gray-200 max-w-20 p-1 rounded-lg outline-0 "
             value={selectCurrency}
             onChange={(e)=> onCurrencyChange && onCurrencyChange(e.target.value)}
             disabled={onCurrencyDisable}

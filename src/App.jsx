@@ -24,7 +24,7 @@ function App() {
 
   return (
     <>
-      <div className="w-full h-screen bg-black text-center py-20">
+      <div className="w-full h-screen bg-black text-center py-20 px-3">
         <div className="p-4 rounded-lg bg-slate-700 max-w-lg  mx-auto">
           <h1 className="text-teal-400 font-bold text-2xl mb-5 ">
             Currency Converter
